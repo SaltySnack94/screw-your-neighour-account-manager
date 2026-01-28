@@ -1,0 +1,12 @@
+Tasks
+
+1. Set up play area
+2. Set up Cards
+3. Set up Card Handler
+4. Set up Point System
+5. Set up Hands
+6. Set up deck
+7. Login Screen
+8. Set up Database
+9. Set stat collecter/display
+10. Set Calculator

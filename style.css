@@ -1,0 +1,83 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Metal+Mania&display=swap');
+/*Basic Structures */
+:root{
+    --primary-font: 'Metal Mania';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    font-family: var(--primary-font);
+}
+
+.wrapper{
+    width: 420px;
+    color: white;
+}
+
+.wrapper h1 {
+    font-size: 50px;
+    text-align: center; 
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.input-box input {
+    width: 90%;
+    height: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    font-size: 16px;
+    color: white;
+    border-radius: 40px;
+    padding: 0px 0px 0px 20px;
+    text-align: left;
+
+
+}
+
+.input-box input::placeholder {
+    color: white;
+
+}
+
+.remember-forgot {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.button{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.btn {
+    background-color: black;
+    border:  2px solid #ffffff;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 32px;
+    text-align: right;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+.register-link {
+    text-align: center;
+}
